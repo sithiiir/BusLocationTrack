@@ -67,18 +67,18 @@ class _ProfilePageState extends State<ProfilePage> {
                 decoration: _customDecoration('Name'),
                 initialValue:data['firstName'], 
               ),
-              SizedBox(height: 20),
-              TextFormField(
-                readOnly: true, 
-                decoration: _customDecoration('Address'),
-                initialValue: data['address'], 
-              ),
-              SizedBox(height: 20),
-              TextFormField(
-                readOnly: true, 
-                decoration: _customDecoration('Phone No'),
-                initialValue: data['phoneNumber'], 
-              ),
+              // SizedBox(height: 20),
+              // TextFormField(
+              //   readOnly: true, 
+              //   decoration: _customDecoration('Address'),
+              //   initialValue: data['address'], 
+              // ),
+              // SizedBox(height: 20),
+              // TextFormField(
+              //   readOnly: true, 
+              //   decoration: _customDecoration('Phone No'),
+              //   initialValue: data['phoneNumber'], 
+              // ),
               SizedBox(height: 20),
               TextFormField(
                 readOnly: true, 
